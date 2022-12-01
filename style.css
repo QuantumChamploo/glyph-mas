@@ -101,7 +101,7 @@ input, select {
     vertical-align:middle;
 }
 
-
+/*
 h2 {
     color: #f3f3f3;
     font-size: 35px;
@@ -114,4 +114,14 @@ p {
 }
 .b1 {
     color:pink;
+}
+*/
+body {
+  background-image: url('images/mssningnos.jpg');
+}
+
+.myDiv {
+  border: 5px outset darkblue;
+  background-color: lightblue;
+  text-align: center;
 }
