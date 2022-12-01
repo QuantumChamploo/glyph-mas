@@ -11,20 +11,32 @@
   <h2 style="font-size:20px">Soon to be Glyph-Mas Head Quarters</h2>
   
 </div>
-<div>
-	<script type="text/javascript">
-		// Gets user input
-		var name = prompt("What is your name?");
-		var num = prompt("What is your favorite number? ");
-
-		// Uses user input to print out information
-		println("Hello " + name + "!");
-		println(num + "?! That's my favorite number too!");
-
-		// Prints out the variable type
-		println("Name is a " + typeof name);
-		println("Num is a " + typeof num);
-	</script>
+<div class="mainBox">
+	Would you like to play?
 </div>
+<div class="flex-container">
+
+  <div class="flex-child magenta" onclick=click1("rad1")>
+    Yes!
+  </div>
+  
+  <div class="flex-child green">
+    Run Away Scared....
+  </div>
+  
+</div>
+​<div class="myDiv" id="rad1" style="visibility: hidden" onclick="loadPage()">Are you sure?</div>​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
+<script type="text/javascript">
+	function click1(i){
+		document.getElementById(i).style.visibility="visible";
+	}
+	function loadPage()
+{
+
+     window.location="top_page.html";
+
+}
+</script>
 </body>
 </html>
